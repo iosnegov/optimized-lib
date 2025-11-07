@@ -1,0 +1,37 @@
+[build-system]
+requires = [
+    "setuptools>=80.0.0", 
+    "wheel>=0.45.0", 
+    "Cython>=3.1.4,<4", 
+    "numpy>=2.3.3,<3"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optimized-lib"
+version = "0.1.0"
+description = "Optimized Simple Geographic Recomendation System Library"
+readme = "README.md"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+
+authors = [
+    { name = "Sierra Arn" }
+]
+requires-python = ">=3.13.7"
+
+dependencies = [
+    "pandas>=2.3.3,<3",
+    "numpy>=2.3.3,<3",
+    "scikit-learn>=1.7.2,<2",
+    "huggingface_hub>=0.35.3,<0.36",
+    "joblib>=1.5.2,<2"
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["optimized_lib*"]

@@ -1,0 +1,18 @@
+# VS Code
+.vscode/
+
+# Virtual environment
+.pixi/
+
+# Python
+__pycache__/
+*.egg-info/
+
+# Cython
+*.c
+*.html
+
+# Pytest-cov
+.coverage
+htmlcov/
+.pytest_cache/
