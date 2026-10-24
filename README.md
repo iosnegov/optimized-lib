@@ -2,6 +2,17 @@
 
 *An optimized simple library for building geographic recommendation systems.*
 
+> [!WARNING]  
+> **Project Archived**
+> 
+> This project is no longer actively maintained. 
+> 
+> **Context:**  
+> Originally, this repository was created to explore and learn the fundamentals of Cython. Rather than just reading about performance optimization, I wanted to learn through practice by rewriting performance-critical paths of my own original implementation, the [Simple Geographic Recommendation System Library](https://github.com/snegoviol/simple-lib). That said, it was purely a learning exercise and was never intended to be a production-ready or educational tool.
+> 
+> **Reason for Archiving:**  
+> The primary goal of this repository has been achieved. Consequently, I no longer have an interest in further maintaining this codebase. This repository is now archived purely as a historical artifact, serving as a snapshot of my first steps with Cython and a reminder of where I started in software development.
+
 ## Brief Overview
 
 This project is developed for educational purposes and demonstrates how to combine geographic data processing with machine learning. As an extension of the original implementation, this version rewrites performance-critical custom code using Cython, leaving highly optimized libraries like scikit-learn unchanged.
